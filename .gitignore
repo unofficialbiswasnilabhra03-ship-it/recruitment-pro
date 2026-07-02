@@ -1,0 +1,31 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+application-prod.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (local dev resume storage - never commit user files)
+uploads/
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
+logs/

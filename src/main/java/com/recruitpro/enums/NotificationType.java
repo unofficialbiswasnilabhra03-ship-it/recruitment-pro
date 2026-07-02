@@ -1,0 +1,18 @@
+package com.recruitpro.enums;
+
+public enum NotificationType {
+    // Email-triggered
+    APPLICATION_RECEIVED,
+    APPLICATION_SHORTLISTED,
+    APPLICATION_REJECTED,
+    INTERVIEW_INVITATION,
+    INTERVIEW_REMINDER,
+    INTERVIEW_RESCHEDULED,
+    INTERVIEW_CANCELLED,
+    OFFER_LETTER,
+    REJECTION_EMAIL,
+    PASSWORD_RESET,
+
+    // In-app only
+    GENERAL
+}

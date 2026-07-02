@@ -1,0 +1,15 @@
+package com.recruitpro;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling // required for InterviewReminderScheduler
+public class RecruitProApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RecruitProApplication.class, args);
+    }
+
+}
