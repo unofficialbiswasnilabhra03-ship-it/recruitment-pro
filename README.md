@@ -64,23 +64,6 @@ Admin is seeded via `DataInitializer` on first startup. All other roles self-reg
 
 ---
 
-## Quick Start (Docker)
-
-```bash
-git clone https://github.com/yourname/recruitpro-backend.git
-cd recruitpro-backend
-
-# Copy and fill in secrets
-cp .env.example .env   # set JWT_SECRET, MAIL_USERNAME, MAIL_PASSWORD
-
-docker-compose up --build
-```
-
-App: http://localhost:8080  
-Swagger UI: http://localhost:8080/swagger-ui.html  
-API Docs: http://localhost:8080/api-docs
-
----
 
 ## Quick Start (Local)
 
